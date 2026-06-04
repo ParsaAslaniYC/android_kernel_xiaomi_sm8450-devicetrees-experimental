@@ -39,9 +39,9 @@
 		aw86927_vib_trig_config = < 0 0 0 1 0 2 0 0
 					    0 0 0 1 0 2 0 0
 					    0 0 0 1 0 2 0 0 >;
-		aw8697_vib_bst_vol_default = < 0x0e >;
-		aw8697_vib_bst_vol_ram = < 0x0e >;
-		aw8697_vib_bst_vol_rtp = < 0x0e >;
+		aw86927_vib_bst_vol_default = < 0x5F >;
+		aw86927_vib_bst_vol_ram = < 0x5F >;
+		aw86927_vib_bst_vol_rtp = < 0x5F >;
 		/*----------------------aw8692x----------------------*/
 		aw86927_vib_mode = < 0 >; /* mode: RAM mode->0; CONT mode->1 */
 		aw86927_vib_f0_pre = < 1700 >;
