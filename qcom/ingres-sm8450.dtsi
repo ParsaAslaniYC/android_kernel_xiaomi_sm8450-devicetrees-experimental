@@ -36,9 +36,9 @@
 		aw8697_vib_tset = < 0x1a >;
 		aw8697_vib_r_spare = < 0x68 >;
 		aw8697_vib_bstdbg = < 0x30 0xeb 0xd4 0 0 0 >;
-		aw8697_vib_trig_config = < 0 1 0 1 2
-					   0 1 0 1 2
-					   0 1 0 1 2 >;
+		aw86927_vib_trig_config = < 0 0 0 1 0 2 0 0
+					    0 0 0 1 0 2 0 0
+					    0 0 0 1 0 2 0 0 >;
 		aw8697_vib_bst_vol_default = < 0x0e >;
 		aw8697_vib_bst_vol_ram = < 0x0e >;
 		aw8697_vib_bst_vol_rtp = < 0x0e >;
