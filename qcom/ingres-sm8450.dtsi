@@ -1,3 +1,4 @@
+
 /*
    this file is for attribution only of ingres
    And public attribution of xiaomi platforms(like K2 and so and)
@@ -574,6 +575,11 @@
 		pinctrl-0 = <&msm_gpio_reset>;
 		pinctrl-1 = <&msm_gpio_reset_output_high>;
 		pinctrl-2 = <&msm_gpio_irq>;
+	};
+	xiaomi_fingerprint {
+		compatible = "xiaomi-fingerprint";
+		status = "ok";
+		fingerprint,name = "xiaomi-fingerprint";
 	};
 	md_testing_mode {
 		compatible = "modem,md-testing-mode";
