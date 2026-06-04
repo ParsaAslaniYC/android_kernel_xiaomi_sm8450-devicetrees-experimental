@@ -286,7 +286,7 @@
     };
     
     thermal_message: thermal-message {
-        board-sensor = "VIRTUAL-SENSOR";
+        board-sensor = "VIRTUAL-SENSOR0";
     };
 
     gamekey: gamekey {
